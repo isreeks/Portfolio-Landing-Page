@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1200px) {
+    .sizedmainbox{
+        width: 50%;
+    }
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    .menulist{
+        display: none;
+    }
+    .menuicon{
+        display: block;
+    }
+    .hero .left-section{
+       width: 100%;
+    }
+    .hero .right-section{
+       width: 100%;
+       text-align: center;
+    }
+    .hero .left-section img{
+        width: 100%;
+    }
+    .exp{
+        width: 100%;
+    }
+    .leftboxes{
+        width: 100%;
+    }
+    .contact-bg .left-section{
+        width: 100%;
+    }
+    .contact-bg{
+         flex-wrap: wrap;
+    }
+    .left-section h1{
+        font-size: 30px;
+    }
+    .left-section p{
+        font-size: 15px;
+    }
+
+
+  }    
+
+  @media only screen and (max-width: 700px) {
+
+    .sizedmainbox{
+        width: 100%;
+    }
+    .sizebox{
+        width: 100%;
+    }
+    .project-header{
+        display: block;
+    }
+    .hero .right-section h1{
+        font-size: 35px;
+    }
+
+    .proj-size-box{
+        width: 100%;
+    }
+  }
